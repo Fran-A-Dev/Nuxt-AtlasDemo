@@ -95,7 +95,7 @@ const postQuery = gql`
 `
 
 const client = new ApolloClient({
-  uri: `https://headlessfw.wpengine.com/graphql`,
+  uri: `https://headlessfrana.wpengine.com/graphql`,
   fetch,
 })
 
