@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="text-center">Nuxt Headless WordPress Demo</h1>
+      <h1 class="text-center">Fran The Dev/Nuxt Headless WordPress Demo</h1>
       <div class="container py-4 posts">
         <div class="row">
           <post-card v-for="post in posts" :key="post.slug" :post="post" />
